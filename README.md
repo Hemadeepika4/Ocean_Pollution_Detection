@@ -1,29 +1,29 @@
-Ocean Pollution Detection using Deep Learning
+# Ocean Pollution Detection Using Deep Learning
 
-An advanced Deep Learning project for detecting underwater ocean pollution using CNNs, Autoencoders, Image Enhancement techniques, and YOLO-compatible object detection pipelines.
+An advanced Deep Learning project for detecting underwater ocean pollution using Convolutional Neural Networks (CNNs), Variational Autoencoders (VAEs), Denoising Autoencoders, and underwater image enhancement techniques.
 
-This project focuses on identifying underwater plastic waste and marine debris from underwater images using Computer Vision and Deep Learning techniques.
+## Project Overview
 
-Project Overview
-
-Ocean pollution is one of the biggest environmental challenges affecting marine ecosystems and biodiversity. Traditional monitoring systems are expensive and time-consuming.
+Ocean pollution is one of the biggest environmental challenges affecting marine ecosystems and biodiversity. Traditional monitoring systems are expensive, time-consuming, and require significant human effort.
 
 This project proposes an AI-powered solution that:
 
-Detects underwater pollution
-Classifies polluted vs non-polluted images
-Enhances underwater image quality
-Uses Deep Learning for automated marine monitoring
+* Detects underwater pollution
+* Classifies polluted and non-polluted underwater images
+* Enhances underwater image quality
+* Uses Deep Learning for automated marine monitoring
 
 The system combines:
 
-CNN Classification
-Variational Autoencoders (VAE)
-Denoising Autoencoders
-Underwater Image Enhancement
-YOLO-compatible annotation visualization
+* CNN-based Classification
+* Variational Autoencoder (VAE)
+* Denoising Autoencoder
+* Underwater Image Enhancement
+* YOLO-compatible Annotation Visualization
 
-Features
+---
+
+# Features
 
 * Underwater Image Preprocessing
 * Pollution Classification using CNN
@@ -31,122 +31,134 @@ Features
 * Denoising Autoencoder Implementation
 * YOLO Annotation Visualization
 * Data Augmentation Pipeline
-* Histogram Equalization & CLAHE
-* ROC Curve & Confusion Matrix Evaluation
+* Histogram Equalization and CLAHE
+* ROC Curve and Confusion Matrix Evaluation
 * Real-Time Prediction Pipeline
-* Training vs Validation Visualization
+* Training vs. Validation Performance Visualization
 
+---
 
-  Technologies Used
+# Technologies Used
 
-  **Programming Language**
+## Programming Language
 
-  * Python
+* Python
 
-* **Deep Learning Frameworks**
+## Deep Learning Frameworks
 
-  * TensorFlow
-  * Keras
+* TensorFlow
+* Keras
 
-* **Computer Vision Libraries**
+## Computer Vision Libraries
 
-  * OpenCV
-  * PIL (Pillow)
+* OpenCV
+* Pillow (PIL)
 
-* **Data Science Libraries**
+## Data Science Libraries
 
-  * NumPy
-  * Pandas
-  * Matplotlib
-  * Seaborn
-  * Scikit-learn
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
 
-* **Development Environment**
+## Development Environment
 
-  * Google Colab
-  * Jupyter Notebook
-  * GitHub
+* Google Colab
+* Jupyter Notebook
+* GitHub
 
- Dataset Used
+---
+
+# Dataset Used
 
 The dataset consists of underwater images categorized into:
 
-Polluted
-Non-Polluted
+* Polluted
+* Non-Polluted
 
-Pollutants include:
+### Pollutants Included
 
-Plastic bottles
-Plastic bags
-Wrappers
-Marine debris
+* Plastic bottles
+* Plastic bags
+* Wrappers
+* Marine debris
 
-🔗 Dataset Link
+### Dataset Link
 
 https://www.kaggle.com/datasets/hemadeepika25/ocean-pollution-dataset
 
-### Implemented Modules
+---
 
-* **Dataset Loading**
+# Implemented Modules
 
-  * Google Drive Integration
-  * Dataset Path Management
-  * Image & Label Loading
-  * File Handling
+## Dataset Loading
 
-* **Dataset Visualization**
+* Google Drive Integration
+* Dataset Path Management
+* Image and Label Loading
+* File Handling
 
-  * Random Sample Visualization
-  * Image Plotting
-  * Bounding Box Visualization
+## Dataset Visualization
 
-* **Image Preprocessing**
+* Random Sample Visualization
+* Image Plotting
+* Bounding Box Visualization
 
-  * Image Resizing (416 × 416)
-  * RGB Conversion
-  * Normalization
-  * Contrast Enhancement
+## Image Preprocessing
 
-* **Underwater Image Enhancement**
+* Image Resizing (416 × 416)
+* RGB Conversion
+* Image Normalization
+* Contrast Enhancement
 
-  * Histogram Equalization
-  * CLAHE
-  * Denoising
+## Underwater Image Enhancement
 
-* **Data Augmentation**
+* Histogram Equalization
+* Contrast Limited Adaptive Histogram Equalization (CLAHE)
+* Image Denoising
 
-  * Rotation
-  * Rescaling
-  * Dataset Expansion
+## Data Augmentation
 
+* Image Rotation
+* Rescaling
+* Dataset Expansion
 
- CNN Model
+---
 
-Custom CNN architecture with:
+# CNN Model
 
-Convolution layers
-MaxPooling
-Dense layers
-Dropout regularization
+The custom CNN architecture includes:
 
-Variational Autoencoder (VAE)
+* Convolutional Layers
+* Max Pooling Layers
+* Dense Layers
+* Dropout Regularization
 
-Implemented:
+---
 
-Encoder
-Decoder
-Latent space sampling
+# Variational Autoencoder (VAE)
 
-Denoising Autoencoder
+The VAE implementation includes:
 
-Used for:
+* Encoder
+* Decoder
+* Latent Space Sampling
 
-Noise reduction
-Underwater image reconstruction
+---
 
-Evaluation Metrics
+# Denoising Autoencoder
 
-### Performance Metrics Implemented
+The Denoising Autoencoder is used for:
+
+* Noise Reduction
+* Underwater Image Reconstruction
+
+---
+
+# Evaluation Metrics
+
+The project evaluates model performance using:
 
 * Accuracy
 * Precision
@@ -157,18 +169,14 @@ Evaluation Metrics
 * Confusion Matrix
 * Classification Report
 
-Model Performance Visualization
+---
 
-### Visualizations Included
+# Model Performance Visualization
 
-* Training vs Validation Accuracy Graphs
-* Training vs Validation Loss Graphs
-* Heatmaps
-* ROC Curve Visualization
+The project includes the following visualizations:
+
+* Training vs. Validation Accuracy
+* Training vs. Validation Loss
+* Confusion Matrix Heatmap
+* ROC Curve
 * Confusion Matrix Visualization
-
-
-
-Author : Hema Deepika
-
-Contact : velagahema@gmail.com
