@@ -36,25 +36,35 @@ Features
 * Real-Time Prediction Pipeline
 * Training vs Validation Visualization
 
- Technologies Used
-Programming Language
-Python
-Deep Learning Frameworks
-TensorFlow
-Keras
-Computer Vision Libraries
-OpenCV
-PIL
-Data Science Libraries
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-learn
-Development Environment
-Google Colab
-Jupyter Notebook
-GitHub
+  Technologies Used
+
+  **Programming Language**
+
+  * Python
+
+* **Deep Learning Frameworks**
+
+  * TensorFlow
+  * Keras
+
+* **Computer Vision Libraries**
+
+  * OpenCV
+  * PIL (Pillow)
+
+* **Data Science Libraries**
+
+  * NumPy
+  * Pandas
+  * Matplotlib
+  * Seaborn
+  * Scikit-learn
+
+* **Development Environment**
+
+  * Google Colab
+  * Jupyter Notebook
+  * GitHub
 
  Dataset Used
 
