@@ -36,6 +36,7 @@ Features
 * Real-Time Prediction Pipeline
 * Training vs Validation Visualization
 
+
   Technologies Used
 
   **Programming Language**
@@ -137,26 +138,27 @@ Underwater image reconstruction
 
 Evaluation Metrics
 
-Implemented:
+### Performance Metrics Implemented
 
-Accuracy
-Precision
-Recall
-F1-Score
-ROC Curve
-AUC Score
-Confusion Matrix
-Classification Report
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* ROC Curve
+* AUC Score
+* Confusion Matrix
+* Classification Report
 
 Model Performance Visualization
 
-The project includes:
+### Visualizations Included
 
-Training vs Validation Accuracy Graphs
-Training vs Validation Loss Graphs
-Heatmaps
-ROC Curves
-Confusion Matrix Visualization
+* Training vs Validation Accuracy Graphs
+* Training vs Validation Loss Graphs
+* Heatmaps
+* ROC Curve Visualization
+* Confusion Matrix Visualization
+
 
 
 Author : Hema Deepika
