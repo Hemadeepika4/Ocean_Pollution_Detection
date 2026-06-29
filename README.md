@@ -22,20 +22,21 @@ Variational Autoencoders (VAE)
 Denoising Autoencoders
 Underwater Image Enhancement
 YOLO-compatible annotation visualization
-🚀 Features
 
-✅ Underwater image preprocessing
-✅ Pollution classification using CNN
-✅ Variational Autoencoder (VAE) implementation
-✅ Denoising Autoencoder implementation
-✅ YOLO annotation visualization
-✅ Data augmentation pipeline
-✅ Histogram Equalization & CLAHE
-✅ ROC Curve & Confusion Matrix evaluation
-✅ Real-time prediction pipeline
-✅ Training vs Validation visualization
+ Features
 
-🧠 Technologies Used
+ Underwater image preprocessing
+ Pollution classification using CNN
+ Variational Autoencoder (VAE) implementation
+ Denoising Autoencoder implementation
+ YOLO annotation visualization
+ Data augmentation pipeline
+ Histogram Equalization & CLAHE
+ ROC Curve & Confusion Matrix evaluation
+ Real-time prediction pipeline
+ Training vs Validation visualization
+
+ Technologies Used
 Programming Language
 Python
 Deep Learning Frameworks
@@ -54,7 +55,8 @@ Development Environment
 Google Colab
 Jupyter Notebook
 GitHub
-📂 Dataset Used
+
+ Dataset Used
 
 The dataset consists of underwater images categorized into:
 
@@ -71,30 +73,35 @@ Marine debris
 
 https://www.kaggle.com/datasets/hemadeepika25/ocean-pollution-dataset
 
-🖼️ Implemented Modules
-✅ Dataset Loading
+ Implemented Modules
+Dataset Loading
 Google Drive integration
 Dataset path management
 Image & label loading
 File handling
-✅ Dataset Visualization
+
+Dataset Visualization
 Random sample visualization
 Image plotting
 Bounding box visualization
-✅ Image Preprocessing
+
+Image Preprocessing
 Resizing (416x416)
 RGB conversion
 Normalization
 Contrast enhancement
-✅ Underwater Image Enhancement
+
+Underwater Image Enhancement
 Histogram Equalization
 CLAHE
 Denoising
-✅ Data Augmentation
+
+Data Augmentation
 Rotation
 Rescaling
 Dataset expansion
-✅ CNN Model
+
+ CNN Model
 
 Custom CNN architecture with:
 
@@ -102,20 +109,23 @@ Convolution layers
 MaxPooling
 Dense layers
 Dropout regularization
-✅ Variational Autoencoder (VAE)
+
+Variational Autoencoder (VAE)
 
 Implemented:
 
 Encoder
 Decoder
 Latent space sampling
-✅ Denoising Autoencoder
+
+Denoising Autoencoder
 
 Used for:
 
 Noise reduction
 Underwater image reconstruction
-✅ Evaluation Metrics
+
+Evaluation Metrics
 
 Implemented:
 
@@ -127,7 +137,8 @@ ROC Curve
 AUC Score
 Confusion Matrix
 Classification Report
-📊 Model Performance Visualization
+
+Model Performance Visualization
 
 The project includes:
 
