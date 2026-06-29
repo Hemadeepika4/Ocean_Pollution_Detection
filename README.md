@@ -23,18 +23,18 @@ Denoising Autoencoders
 Underwater Image Enhancement
 YOLO-compatible annotation visualization
 
- Features
+Features
 
- Underwater image preprocessing
- Pollution classification using CNN
- Variational Autoencoder (VAE) implementation
- Denoising Autoencoder implementation
- YOLO annotation visualization
- Data augmentation pipeline
- Histogram Equalization & CLAHE
- ROC Curve & Confusion Matrix evaluation
- Real-time prediction pipeline
- Training vs Validation visualization
+* Underwater Image Preprocessing
+* Pollution Classification using CNN
+* Variational Autoencoder (VAE) Implementation
+* Denoising Autoencoder Implementation
+* YOLO Annotation Visualization
+* Data Augmentation Pipeline
+* Histogram Equalization & CLAHE
+* ROC Curve & Confusion Matrix Evaluation
+* Real-Time Prediction Pipeline
+* Training vs Validation Visualization
 
  Technologies Used
 Programming Language
