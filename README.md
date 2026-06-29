@@ -80,37 +80,45 @@ Plastic bottles
 Plastic bags
 Wrappers
 Marine debris
+
 🔗 Dataset Link
 
 https://www.kaggle.com/datasets/hemadeepika25/ocean-pollution-dataset
 
- Implemented Modules
-Dataset Loading
-Google Drive integration
-Dataset path management
-Image & label loading
-File handling
+### Implemented Modules
 
-Dataset Visualization
-Random sample visualization
-Image plotting
-Bounding box visualization
+* **Dataset Loading**
 
-Image Preprocessing
-Resizing (416x416)
-RGB conversion
-Normalization
-Contrast enhancement
+  * Google Drive Integration
+  * Dataset Path Management
+  * Image & Label Loading
+  * File Handling
 
-Underwater Image Enhancement
-Histogram Equalization
-CLAHE
-Denoising
+* **Dataset Visualization**
 
-Data Augmentation
-Rotation
-Rescaling
-Dataset expansion
+  * Random Sample Visualization
+  * Image Plotting
+  * Bounding Box Visualization
+
+* **Image Preprocessing**
+
+  * Image Resizing (416 × 416)
+  * RGB Conversion
+  * Normalization
+  * Contrast Enhancement
+
+* **Underwater Image Enhancement**
+
+  * Histogram Equalization
+  * CLAHE
+  * Denoising
+
+* **Data Augmentation**
+
+  * Rotation
+  * Rescaling
+  * Dataset Expansion
+
 
  CNN Model
 
@@ -162,4 +170,5 @@ Model Performance Visualization
 
 
 Author : Hema Deepika
+
 Contact : velagahema@gmail.com
